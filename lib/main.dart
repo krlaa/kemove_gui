@@ -139,6 +139,7 @@ class _MyAppState extends State<MyApp> {
   Widget newMethod(width, key, Color color) {
     return GestureDetector(
       onTap: () {
+        //hello world
         print(key);
         showDialog(
           context: context,
